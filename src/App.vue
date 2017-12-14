@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='https://omarefg.github.io/platzimusic/dist/logo.png')
+    img(src='dist/logo.png')
     h1 {{ msg }}
     select(v-model="selectedCountry")
       option(v-for="country in countries" v-bind:value="country.value") {{country.name}}
